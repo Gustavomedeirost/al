@@ -20,3 +20,14 @@ class Cachorro(Animal):
 class Gato(Animal):
     def emitir_som(self):
         print(f"{self.nome} diz: Miau")
+
+def main():
+    cachorro = Cachorro("Original")
+    gato = Gato("Mimosa")
+
+    animais = [cachorro, gato]
+
+    for animal in animais:
+        animal.comer()
+        animal.emitir_som()
+main()
