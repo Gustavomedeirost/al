@@ -1,0 +1,29 @@
+"""
+A busca binária é um eficiente algoritmo para encontrar um item em uma lista ordenada de itens. Ela funciona dividindo repetidamente pela metade a porção da lista que deve conter o item, até reduzir as localizações possíveis a apenas uma. 
+
+Quando descrevemos um algoritmo para outro ser humano, uma descrição incompleta muitas vezes é o bastante. Alguns detalhes podem ter ficado de fora de uma receita para um bolo; a receita presume que você sabe como abrir o refrigerador para pegar os ovos e que você sabe como quebrar os ovos. As pessoas podem intuitivamente saber como encontrar detalhes faltantes, mas os programas de computador não podem. É por isso que precisamos descrever completamente os algoritmos de computador.
+Para implementar um algoritmo em uma linguagem de programação, você precisa entender todos os detalhes do algoritmo. Quais são as entradas do problema? Quais são as saídas? Que variáveis devem ser criadas, e quais devem ser seus valores iniciais? Que etapas intermediárias devem ser realizadas para computar outros valores e para afinal computar a saída? Essas etapas repetem instruções que podem ser escritas de forma simplificada usando um laço?
+
+
+## Exercícios 
+
+1.1 Suponha que você tenha uma lista com 128 nomes e esteja fazendo uma pesquisa binário. Qual seria o número máximo de etapas que você levaria para encontrar nome desejado?
+
+1.2 Suponha que você duplique o tamanho da lista. Qual seria o número máximo de etapas agora?
+
+Na pesquisa binária, o número máximo de etapas necessário para encontrar um item em uma lista de tamanho \( n \) é dado por \( \log_2(n) \), pois a cada etapa o tamanho da lista pesquisada é reduzido pela metade.
+
+1. Para uma lista com 128 nomes:
+   - \( \log_2(128) = 7 \)
+   - Portanto, o número máximo de etapas seria **7**.
+
+2. Se o tamanho da lista for duplicado para 256 nomes:
+   - \( \log_2(256) = 8 \)
+   - Agora, o número máximo de etapas seria **8**.
+
+Assim, ao duplicar o tamanho da lista, o número máximo de etapas aumenta apenas em 1, porque a pesquisa binária é muito eficiente e cresce de forma logarítmica.
+
+"""
+
+fontes: https://pt.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search
+Livro Entendendo algoritmos: um guia ilustrado para programadores e outros curiosos. Aditya Y. Bhargava

@@ -1,0 +1,1 @@
+A introdução a algoritmos é fundamental para a compreensão da programação e da ciência da computação. Um algoritmo é uma sequência de instruções bem definidas e finitas que descrevem como realizar uma tarefa ou resolver um problema. Eles são a base para a criação de programas de computador e são usados em diversas áreas, desde a matemática até a inteligência artificial.
